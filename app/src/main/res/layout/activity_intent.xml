@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ACC1"
+    tools:context=".IntentActivity">
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="124dp"
+        android:layout_height="68dp"
+        android:text="Dail"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#36E307"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="122dp"
+        android:layout_height="64dp"
+        android:text="SMS"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#0EEF17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="118dp"
+        android:layout_height="61dp"
+        android:text="Share"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#F60404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
+        android:text="Camera"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#F60606"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:background="#D81B60"
+        android:text="Call"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#0FFA07"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <Button
+        android:id="@+id/btn_mpesa"
+        android:layout_width="116dp"
+        android:layout_height="62dp"
+        android:text="Mpesa"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#06EA10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="118dp"
+        android:layout_height="61dp"
+        android:text="E-mail"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#EF0303"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
